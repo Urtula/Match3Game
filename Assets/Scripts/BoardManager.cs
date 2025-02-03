@@ -19,8 +19,8 @@ public enum NeighbourDirection
 }
 public class BoardManager : MonoBehaviour
 {
-    public static int boardWidth = 16;
-    public static int boardHeight =16;
+    public static int boardWidth = 8;
+    public static int boardHeight =8;
     public GameObject tilePrefab; 
     public GameObject[] objectPrefabs;
     private GameObject[,] board;
